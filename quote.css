@@ -1,5 +1,5 @@
 body{
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,11 +11,16 @@ body{
   width: 85%;
   margin: 0 auto;
   background-color: beige;
-  font-family: fantasy;
+  font-family: Geneva;
+  text-shadow: 2px 2px 2px #333333;
+  text-decoration-color: #222222;
 }
 #quote{
+ font-size: 35px;
+   font-style: italic;
  background-color: chartreuse;
 }
 #auth{
   background-color: darkolivegreen;
+  font-size: 22px;
 }
