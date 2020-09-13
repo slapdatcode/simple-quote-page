@@ -1,0 +1,21 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(assets/cyprus.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#textbox{
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  background-color: beige;
+  font-family: fantasy;
+}
+#quote{
+ background-color: chartreuse;
+}
+#auth{
+  background-color: darkolivegreen;
+}
