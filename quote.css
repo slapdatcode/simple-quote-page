@@ -20,7 +20,13 @@ body{
   font-size: 40px;
   font-style: italic;
 }
+#tranz{
+  opacity: 0;
+}
+#tranz:hover {
+  opacity: 1;
+  transition-delay: 0,5s;
+  }
 #auth{
   font-size: 22px;
   text-align: right;
-}
